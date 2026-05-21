@@ -120,7 +120,7 @@ precio NUMERIC NOT NULL);
   });
 
 
-  const PORT = 3000;
+  const PORT = 8026;
   app.listen(PORT, () => {
     console.log(`Servidor escuchando en http://localhost:${PORT}`);
   });
